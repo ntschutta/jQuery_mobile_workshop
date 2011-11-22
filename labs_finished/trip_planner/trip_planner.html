@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Trip Planner Mobile</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../javascript/jqueryMobile/jquery.mobile-1.0.min.css" />
+    <script src="../javascript/jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="../javascript/jqueryMobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+	<div data-role="page" id="main">
+		<div data-role="header">
+			<h1>Trip Planner Mobile</h1>
+			<a href="info.html" data-icon="info" class="ui-btn-right">Info</a>
+		</div>
+		<div data-role="content">
+			<h2>Welcome to Trip Planner Mobile!</h2>
+			<a href="#trips" data-transition="pop"data-role="button">Trip Planner Mobile</a>
+			<a href="register.html" data-role="button">Register Account</a>
+			<a href="login.html" data-role="button">Login</a>
+		</div>
+	</div>
+	
+<div data-role="page" id="trips">
+	<div data-role="header">
+		<h1>Your Trips</h1>
+		<a href="info.html" data-icon="info" class="ui-btn-right">Info</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview">
+			<li data-role="list-divider">Your Trips</li>
+			<li><a href="#trip1">Amsterdam, Netherlands</a><span class="ui-li-count">7 Days</span></li>
+			<li><a href="#trip2">Fort Lauderdale, FL</a><span class="ui-li-count">3 Days</span></li>
+			<li data-role="list-divider">Shared Trips</li>
+			<li>No Shared Trips</li>
+		</ul>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<a href="trips.html" data-role="button" data-icon="info">Trips</a>
+		<a href="points.html" data-role="button" data-icon="star">Points</a>
+		<a href="network.html" data-role="button" data-icon="gear">Network</a>
+		<a href="refresh.html" data-role="button" data-icon="refresh">Refresh</a>
+	</div>
+</div>
+
+<div data-role="page" id="trip1" data-add-back-btn="true" data-back-btn-text="Trips">
+	<div data-role="header">
+		<h1>Your Trip to Amsterdam</h1>
+		<h1>7 days, 12 Nov -> 19 Nov</h1>
+		<a href="info.html" data-icon="info" class="ui-btn-right">Info</a>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li data-role="list-divider">Friday November 12</li>
+			<li><a href="flight1.html">MSP -> AMS</a></li>
+			<li><a href="directions.html">Directions to Holiday Inn</a></li>
+			<li><a href="map.html">Map of Amsterdam</a></li>
+			<li><a href="transport.html">Transportation</a></li>
+			<li data-role="list-divider">Sunday November 14</li>
+			<li><a href="venue.html">Venue</a></li>
+			<li data-role="list-divider">Tuesday November 16</li>
+			<li><a href="transport2.html">Transportation</a></li>
+			<li><a href="dinner.html">Speaker's dinner</a></li>
+			<li data-role="list-divider">Friday November 19</li>
+			<li><a href="flight2.html">AMS -> MPS</a></li>
+		</ul>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<a href="trips.html" data-role="button" data-icon="info">Trips</a>
+		<a href="points.html" data-role="button" data-icon="star">Points</a>
+		<a href="network.html" data-role="button" data-icon="gear">Network</a>
+		<a href="refresh.html" data-role="button" data-icon="refresh">Refresh</a>
+	</div>
+</div>
+
+<div data-role="page" id="trip2" data-add-back-btn="true" data-back-btn-text="Trips">
+	<div data-role="header">
+		<h1>Your Trip to Fort Lauderdale</h1>
+		<h1>3 days, 30 Nov -> 2 Dec</h1>
+		<a href="info.html" data-icon="info"class="ui-btn-right">Info</a>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li data-role="list-divider">Tuesday November 30</li>
+			<li><a href="flight1.html">MSP -> FLL</a></li>
+			<li><a href="directions.html">Directions to Westin</a></li>
+			<li><a href="map.html">Map of Fort Lauderdale</a></li>
+			<li><a href="transport.html">Transportation</a></li>
+			<li data-role="list-divider">Wednesday December 1</li>
+			<li><a href="venue.html">Venue</a></li>
+			<li data-role="list-divider">Thursday December 2</li>
+			<li><a href="transport2.html">Transportation</a></li>
+			<li><a href="flight2.html">FLL -> MPS</a></li>
+		</ul>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<a href="trips.html" data-role="button" data-icon="info">Trips</a>
+		<a href="points.html" data-role="button" data-icon="star">Points</a>
+		<a href="network.html" data-role="button" data-icon="gear">Network</a>
+		<a href="refresh.html" data-role="button" data-icon="refresh">Refresh</a>
+	</div>
+</div>
+</body>
+</html>
+
+
