@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Form Elements</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../javascript/jqueryMobile/jquery.mobile-1.0.min.css" />
+    <script src="../javascript/jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="../javascript/jqueryMobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+<div data-role="page">
+	<div data-role="header">
+		<h1>Collapsible Form Elements</h1>
+	</div>
+	<div data-role="content">	
+		<form action="doFoo" method="post">
+
+				<div data-role="fieldcontain">
+					<label for="name">Text Input:</label>
+					<input type="text" name="name" id="name" value=""/>
+					<label for="password">Password Input:</label>
+					<input type="password" name="password" id="password" value=""/>
+				</div>
+
+				<div data-role="fieldcontain">
+					<label for="slider">Input slider:</label>
+					<input type="range" name="slider" id="slider" value="0" min="0" max="100"  />
+					<label for="slider2">Flip toggle:</label>
+					<select name="slider2" id="slider2" data-role="slider">
+						<option value="off">Off</option>
+						<option value="on">On</option>
+					</select> 
+				</div>
+
+				<div data-role="fieldcontain">
+					<label for="select-choice-1" class="select">Favorite Flavor:</label>
+					<select name="select-choice-1" id="select-choice-1">
+						<option value="Vanilla">Vanilla</option>
+						<option value="Chocolate">Chocolate</option>
+						<option value="Neapolitan">Neapolitan</option>
+						<option value="Coffee">Coffee</option>
+					</select>
+					<fieldset data-role="controlgroup">
+						<legend>Favorite Flavors:</legend>
+						<input type="checkbox" name="checkbox-1" id="checkbox-1" class="custom" />
+						<label for="checkbox-1">Vanilla</label>
+						<input type="checkbox" name="checkbox-2" id="checkbox-2" class="custom" />
+						<label for="checkbox-2">Chocolate</label>
+						<input type="checkbox" name="checkbox-3" id="checkbox-3" class="custom" />
+						<label for="checkbox-3">Neapolitan</label>
+						<input type="checkbox" name="checkbox-4" id="checkbox-4" class="custom" />
+						<label for="checkbox-4">Coffee</label>
+					</fieldset>
+				</div>
+
+		</form>		
+	</div>
+</div>
+</body>
+</html>
+
+
