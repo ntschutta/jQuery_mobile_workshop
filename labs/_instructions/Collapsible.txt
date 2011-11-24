@@ -1,0 +1,5 @@
+Collapsible Sets
+
+* Add collapsable sets to the form
+* Have one (or more) sections open on load
+* ${extract}/jQuery_mobile_workshop/labs/collapsible/collapsible.html

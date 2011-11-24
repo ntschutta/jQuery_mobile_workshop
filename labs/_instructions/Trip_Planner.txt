@@ -1,0 +1,7 @@
+Trip Planner
+
+* Using what we’ve learned, create a jQuery Mobile based “trip planner”
+* Splash page
+* Trip list
+* Trip details
+* ${extract}/jQuery_mobile_workshop/labs/trip_planner/trip_planner.html

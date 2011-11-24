@@ -1,0 +1,7 @@
+Themes
+
+* Wifi willing...
+* http://jquerymobile.com/themeroller/
+* Using jQuery ThemeRoller, create your own theme
+* Try your theme out on various labs
+* ${extract}/jQuery_mobile_workshop/labs/collapsible/collapsible.html

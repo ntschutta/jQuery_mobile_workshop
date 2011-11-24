@@ -1,0 +1,4 @@
+Page Structure
+
+* Create a basic page with a header, content area and a footer
+* ${extract}/jQuery_mobile_workshop/labs/page_structure/one_page.html

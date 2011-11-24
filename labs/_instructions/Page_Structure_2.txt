@@ -1,0 +1,6 @@
+Page Structure - 2
+
+* Add a second page
+* Create a link from the first to the second
+* Try different transitions
+* ${extract}/jQuery_mobile_workshop/labs/page_structure/two_page.html

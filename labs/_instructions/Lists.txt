@@ -1,0 +1,8 @@
+Lists
+
+* Create a page with a standard list
+* Create a page with a read only list
+* Add list dividers
+* Add “counts”
+* Convert a list to a numbered list
+* ${extract}/jQuery_mobile_workshop/labs/lists/*.html

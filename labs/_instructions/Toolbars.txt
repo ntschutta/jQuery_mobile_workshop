@@ -1,0 +1,13 @@
+Toolbars
+
+* jQuery Mobile can add a back button
+* Have jQuery Mobile create the back button
+* Change the back button’s text
+* ${extract}/jQuery_mobile_workshop/labs/toolbars/two_page_back_button.html
+
+Toolbars - 2
+
+* Add a left and right button to the header
+* Add a few buttons to the footer
+* Experiment with different icons
+* ${extract}/jQuery_mobile_workshop/labs/toolbars/two_page_toolbar.html

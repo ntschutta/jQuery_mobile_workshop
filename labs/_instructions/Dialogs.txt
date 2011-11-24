@@ -1,0 +1,6 @@
+Dialogs
+
+* Create a basic page that links to the existing dialog.html
+* Try different transitions
+* Add a cancel link to the dialog
+* ${extract}/jQuery_mobile_workshop/labs/dialog/page_with_dialog.html
