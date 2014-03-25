@@ -1,31 +1,31 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-    <title>Multiple Pages</title> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiple Pages</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../javascript/jqueryMobile-1.4.2/jquery.mobile-1.4.2.min.css" />
     <script src="../javascript/jquery-2.1.0.js"></script>
     <script src="../javascript/jqueryMobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
-</head> 
-<body> 
+</head>
+<body>
 <div data-role="page" id="page1">
 	<div data-role="header">
 		<h1>First Page</h1>
 	</div>
-	<div role="main" class="ui-content">	
+	<div role="main" class="ui-content">
 		<p>This is page 1.</p>
-		<p>To get to page 2, click <a href="#page2" data-transition="flip">page 2</a>.</p>		
+		<p>To get to page 2, click <a href="#page2" data-transition="flip">page 2</a>.</p>
 	</div>
 	<div data-role="footer">
 		<h4>Page Footer</h4>
 	</div>
 </div>
 
-<div data-role="page" id="page2" data-add-back-btn="true" data-back-btn-text="Steve">
-	<div data-role="header">
+<div data-role="page" id="page2">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Previous">
 		<h1>Second Page</h1>
 	</div>
-	<div role="main" class="ui-content">	
+	<div role="main" class="ui-content">
 		<p>This is page 2.</p>
 		<p>More stuff goes here.</p>
 	</div>
