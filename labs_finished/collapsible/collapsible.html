@@ -1,18 +1,20 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-    <title>Collapsible</title> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Collapsible</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../javascript/jqueryMobile-1.4.2/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" href="../javascript/jqueryMobile-1.4.2/test_theme.min.css" />
+    <link rel="stylesheet" href="../javascript/jqueryMobile-1.4.2/jquery.mobile.icons.min" />
     <script src="../javascript/jquery-2.1.0.js"></script>
     <script src="../javascript/jqueryMobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
-</head> 
-<body> 
-<div data-role="page">
+</head>
+<body>
+<div data-role="page" data-theme="c">
 	<div data-role="header">
 		<h1>Collapsible Form Elements</h1>
 	</div>
-	<div role="main" class="ui-content">	
+	<div role="main" class="ui-content">
 		<form action="doFoo" method="post">
 			<div data-role="collapsible">
 				<h3>Collapse This Section</h3>
@@ -32,7 +34,7 @@
 					<select name="slider2" id="slider2" data-role="slider">
 						<option value="off">Off</option>
 						<option value="on">On</option>
-					</select> 
+					</select>
 				</div>
 			</div>
 			<div data-role="collapsible" data-collapsed="false">
@@ -58,10 +60,8 @@
 					</fieldset>
 				</div>
 			<div>
-		</form>		
+		</form>
 	</div>
 </div>
 </body>
 </html>
-
-
