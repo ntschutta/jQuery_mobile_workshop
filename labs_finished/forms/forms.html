@@ -1,18 +1,18 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-    <title>Form Elements</title> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Elements</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../javascript/jqueryMobile-1.4.2/jquery.mobile-1.4.2.min.css" />
     <script src="../javascript/jquery-2.1.0.js"></script>
     <script src="../javascript/jqueryMobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
-</head> 
-<body> 
+</head>
+<body>
 <div data-role="page">
 	<div data-role="header">
 		<h1>Form Elements</h1>
 	</div>
-	<div role="main" class="ui-content">	
+	<div role="main" class="ui-content">
 		<form action="doFoo" method="post">
 			<div data-role="fieldcontain">
 				<label for="name">Text Input:</label>
@@ -27,11 +27,11 @@
 				<select name="slider2" id="slider2" data-role="slider">
 					<option value="off">Off</option>
 					<option value="on">On</option>
-				</select> 
+				</select>
 			</div>
 			<div data-role="fieldcontain">
 				<label for="select-choice-1" class="select">Favorite Flavor:</label>
-				<select name="select-choice-1" id="select-choice-1" data-role="none">
+				<select name="select-choice-1" id="select-choice-1">
 					<option value="Vanilla">Vanilla</option>
 					<option value="Chocolate">Chocolate</option>
 					<option value="Neapolitan">Neapolitan</option>
@@ -39,20 +39,18 @@
 				</select>
 				<fieldset data-role="controlgroup">
 					<legend>Favorite Flavors:</legend>
-					<input type="checkbox" name="checkbox-1" id="checkbox-1" class="custom" />
+					<input type="checkbox" name="checkbox-1" id="checkbox-1"/>
 					<label for="checkbox-1">Vanilla</label>
-					<input type="checkbox" name="checkbox-2" id="checkbox-2" class="custom" />
+					<input type="checkbox" name="checkbox-2" id="checkbox-2"/>
 					<label for="checkbox-2">Chocolate</label>
-					<input type="checkbox" name="checkbox-3" id="checkbox-3" class="custom" />
+					<input type="checkbox" name="checkbox-3" id="checkbox-3"/>
 					<label for="checkbox-3">Neapolitan</label>
-					<input type="checkbox" name="checkbox-4" id="checkbox-4" class="custom" />
+					<input type="checkbox" name="checkbox-4" id="checkbox-4"/>
 					<label for="checkbox-4">Coffee</label>
 			    </fieldset>
 			</div>
-		</form>		
+		</form>
 	</div>
 </div>
 </body>
 </html>
-
-
