@@ -1,106 +1,94 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-    <title>Trip Planner Mobile</title> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trip Planner Mobile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../javascript/jqueryMobile-1.4.2/jquery.mobile-1.4.2.min.css" />
     <script src="../javascript/jquery-2.1.0.js"></script>
     <script src="../javascript/jqueryMobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
-</head> 
-<body> 
+</head>
+<body>
 	<div data-role="page" id="main">
 		<div data-role="header">
 			<h1>Trip Planner Mobile</h1>
-			<a href="info.html" data-icon="info" class="ui-btn-right">Info</a>
+      <a href="info.html" class="ui-icon-edit ui-btn-right ui-btn ui-shadow ui-btn-icon-notext"></a>
 		</div>
 		<div role="main" class="ui-content">
 			<h2>Welcome to Trip Planner Mobile!</h2>
-			<a href="#trips" data-transition="pop"data-role="button">Trip Planner Mobile</a>
-			<a href="register.html" data-role="button">Register Account</a>
-			<a href="login.html" data-role="button">Login</a>
+			<a href="#trips" data-transition="pop" class="ui-btn">Trip Planner Mobile</a>
+			<a href="register.html" class="ui-btn">Register Account</a>
+			<a href="login.html" class="ui-btn">Login</a>
 		</div>
 	</div>
-	
+
 <div data-role="page" id="trips">
 	<div data-role="header">
-		<h1>Your Trips</h1>
-		<a href="info.html" data-icon="info" class="ui-btn-right">Info</a>
+    <h1>Upcoming  Past</h1>
+      <a href="#main" class="ui-icon-arrow-l ui-btn ui-shadow ui-btn-icon-notext"></a>
+		  <a href="info.html" class="ui-icon-plus ui-btn ui-shadow ui-btn-icon-notext"></a>
 	</div>
 	<div role="main" class="ui-content">
 		<ul data-role="listview">
-			<li data-role="list-divider">Your Trips</li>
-			<li><a href="#trip1">Amsterdam, Netherlands</a><span class="ui-li-count">7 Days</span></li>
-			<li><a href="#trip2">Fort Lauderdale, FL</a><span class="ui-li-count">3 Days</span></li>
-			<li data-role="list-divider">Shared Trips</li>
-			<li>No Shared Trips</li>
+			<li data-role="list-divider">Current Trips</li>
+			<li><a href="#trip1" data-transition="slide">Munich, Germany, November 2013</a></li>
+			<li data-role="list-divider">Upcoming Trips</li>
+      <li><a href="#trip2" data-transition="slide">Chicago, IL, November 2013</a></li>
+      <li><a href="#trip3" data-transition="slide">Denver, CO, November 2013</a></li>
+      <li><a href="#trip4" data-transition="slide">Paris, France, April 2014</a></li>
 		</ul>
-	</div>
-	<div data-role="footer" data-position="fixed">
-		<a href="trips.html" data-role="button" data-icon="info">Trips</a>
-		<a href="points.html" data-role="button" data-icon="star">Points</a>
-		<a href="network.html" data-role="button" data-icon="gear">Network</a>
-		<a href="refresh.html" data-role="button" data-icon="refresh">Refresh</a>
 	</div>
 </div>
 
-<div data-role="page" id="trip1" data-add-back-btn="true" data-back-btn-text="Trips">
+<div data-role="page" id="trip1">
 	<div data-role="header">
-		<h1>Your Trip to Amsterdam</h1>
-		<h1>7 days, 12 Nov -> 19 Nov</h1>
-		<a href="info.html" data-icon="info" class="ui-btn-right">Info</a>
+    <h1>Plans Info Map</h1>
+    <a href="#trips" class="ui-icon-arrow-l ui-btn ui-shadow ui-btn-icon-notext"></a>
+    <a href="info.html" class="ui-icon-edit ui-btn ui-shadow ui-btn-icon-notext"></a>
 	</div>
-	<div role="main" class="ui-content">	
+	<div role="main" class="ui-content">
+    <h3>Munich, Germany, November 2013</h3>
+    <h5>Sat. Nov 2 - Wed Nov 6 2013</h5>
+<div class="ui-grid-a">
+    <div class="ui-block-a"><button class="ui-btn">Add Plans</button></div>
+    <div class="ui-block-b"><button class="ui-btn">Share Trip</button></div>
+</div>
+<p>
 		<ul data-role="listview">
-			<li data-role="list-divider">Friday November 12</li>
-			<li><a href="flight1.html">MSP -> AMS</a></li>
-			<li><a href="directions.html">Directions to Holiday Inn</a></li>
-			<li><a href="map.html">Map of Amsterdam</a></li>
-			<li><a href="transport.html">Transportation</a></li>
-			<li data-role="list-divider">Sunday November 14</li>
+			<li data-role="list-divider">Sat Nov 3</li>
+			<li><a href="flight1.html">6:10 MSP to CDG</a></li>
+      <li data-role="list-divider">Sun Nov 4</li>
+			<li><a href="flight2.html">10:15 CDG to MUN</a></li>
+			<li><a href="transport.html">11:45 Transportation</a></li>
+      <li><a href="transport.html">12:45 Sheraton</a></li>
+			<li data-role="list-divider">Mon Nov 5</li>
 			<li><a href="venue.html">Venue</a></li>
-			<li data-role="list-divider">Tuesday November 16</li>
-			<li><a href="transport2.html">Transportation</a></li>
-			<li><a href="dinner.html">Speaker's dinner</a></li>
-			<li data-role="list-divider">Friday November 19</li>
-			<li><a href="flight2.html">AMS -> MPS</a></li>
 		</ul>
-	</div>
-	<div data-role="footer" data-position="fixed">
-		<a href="trips.html" data-role="button" data-icon="info">Trips</a>
-		<a href="points.html" data-role="button" data-icon="star">Points</a>
-		<a href="network.html" data-role="button" data-icon="gear">Network</a>
-		<a href="refresh.html" data-role="button" data-icon="refresh">Refresh</a>
 	</div>
 </div>
 
-<div data-role="page" id="trip2" data-add-back-btn="true" data-back-btn-text="Trips">
-	<div data-role="header">
-		<h1>Your Trip to Fort Lauderdale</h1>
-		<h1>3 days, 30 Nov -> 2 Dec</h1>
-		<a href="info.html" data-icon="info"class="ui-btn-right">Info</a>
-	</div>
-	<div role="main" class="ui-content">	
-		<ul data-role="listview">
-			<li data-role="list-divider">Tuesday November 30</li>
-			<li><a href="flight1.html">MSP -> FLL</a></li>
-			<li><a href="directions.html">Directions to Westin</a></li>
-			<li><a href="map.html">Map of Fort Lauderdale</a></li>
-			<li><a href="transport.html">Transportation</a></li>
-			<li data-role="list-divider">Wednesday December 1</li>
-			<li><a href="venue.html">Venue</a></li>
-			<li data-role="list-divider">Thursday December 2</li>
-			<li><a href="transport2.html">Transportation</a></li>
-			<li><a href="flight2.html">FLL -> MPS</a></li>
-		</ul>
-	</div>
-	<div data-role="footer" data-position="fixed">
-		<a href="trips.html" data-role="button" data-icon="info">Trips</a>
-		<a href="points.html" data-role="button" data-icon="star">Points</a>
-		<a href="network.html" data-role="button" data-icon="gear">Network</a>
-		<a href="refresh.html" data-role="button" data-icon="refresh">Refresh</a>
-	</div>
+<div data-role="page" id="trip2">
+  <div data-role="header">
+    <h1>Plans Info Map</h1>
+    <a href="#trips" class="ui-icon-arrow-l ui-btn ui-shadow ui-btn-icon-notext"></a>
+    <a href="info.html" class="ui-icon-edit ui-btn ui-shadow ui-btn-icon-notext"></a>
+  </div>
+  <div role="main" class="ui-content">
+    <h3>Chicago, IL, November 2013</h3>
+    <h5>Sat. Nov 9 - Sun Nov 10 2013</h5>
+<div class="ui-grid-a">
+    <div class="ui-block-a"><button class="ui-btn">Add Plans</button></div>
+    <div class="ui-block-b"><button class="ui-btn">Share Trip</button></div>
 </div>
+<p>
+    <ul data-role="listview">
+      <li data-role="list-divider">Sat Nov 9</li>
+      <li><a href="flight1.html">6:10 MSP to ORD</a></li>
+      <li data-role="list-divider">Sun Nov 10</li>
+      <li><a href="flight2.html">10:15 ORD to MSP</a></li>
+      <li><a href="venue.html">Venue</a></li>
+    </ul>
+  </div>
+</div>
+
 </body>
 </html>
-
-
