@@ -14,13 +14,13 @@
 	</div>
 	<div role="main" class="ui-content">
 		<form action="doFoo" method="post">
-			<div data-role="fieldcontain">
+			<div class="ui-field-contain">
 				<label for="name">Text Input:</label>
 			    <input type="text" name="name" id="name" value=""/>
 			    <label for="password">Password Input:</label>
 			    <input type="password" name="password" id="password" value=""/>
 			</div>
-			<div data-role="fieldcontain">
+			<div class="ui-field-contain">
 				<label for="slider">Input slider:</label>
 			 	<input type="range" name="slider" id="slider" value="0" min="0" max="100"  />
 				<label for="slider2">Flip toggle:</label>
@@ -29,7 +29,7 @@
 					<option value="on">On</option>
 				</select>
 			</div>
-			<div data-role="fieldcontain">
+			<div class="ui-field-contain">
 				<label for="select-choice-1" class="select">Favorite Flavor:</label>
 				<select name="select-choice-1" id="select-choice-1">
 					<option value="Vanilla">Vanilla</option>
@@ -37,6 +37,8 @@
 					<option value="Neapolitan">Neapolitan</option>
 					<option value="Coffee">Coffee</option>
 				</select>
+      </div>
+      <div class="ui-field-contain">
 				<fieldset data-role="controlgroup">
 					<legend>Favorite Flavors:</legend>
 					<input type="checkbox" name="checkbox-1" id="checkbox-1"/>
